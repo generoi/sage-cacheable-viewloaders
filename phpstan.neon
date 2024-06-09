@@ -1,0 +1,11 @@
+parameters:
+  level: 6
+  paths:
+    - src/
+
+  ignoreErrors:
+    - identifier: missingType.generics
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::getName\(\)#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::getPath\(\)#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::getCompiled\(\)#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_\|]+::makeLoader\(\)#'
