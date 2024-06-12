@@ -12,7 +12,7 @@ class CacheableViewLoadersServiceProvider extends ServiceProvider
     /**
      * {@inheritDoc}
      */
-    public function boot(): void
+    public function register(): void
     {
         parent::register();
         $this->registerMacros();
